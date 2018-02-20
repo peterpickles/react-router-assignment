@@ -1,0 +1,15 @@
+{
+    "proxies": {
+      "/api/": {
+        "origin": "${SHAKE_API}"
+      }
+    }
+  }
+
+  {
+    "proxies": {
+      "/api/": {
+        "origin": "${WEATHER_API}"
+      }
+    }
+  }
